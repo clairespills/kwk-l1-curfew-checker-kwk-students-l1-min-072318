@@ -49,8 +49,8 @@ else
   puts"you have #{curfew_time - current_time} hours to get home"
 end
 end
-  
-platinum_curfew_checker(puts "what time is your curfew?"
-curfew_time = gets.chomp,
+  puts "what time is your curfew?"
+a_time = gets.chomp
 puts "what time is it right now?"
-current_time= gets.chomp,)
+an_time= gets.chomp
+platinum_curfew_checker(a_time,an_time)
