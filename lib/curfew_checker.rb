@@ -54,4 +54,4 @@ else
 end
 end
   
-platinum_curfew_checker (current_time,)
+platinum_curfew_checker (,)
