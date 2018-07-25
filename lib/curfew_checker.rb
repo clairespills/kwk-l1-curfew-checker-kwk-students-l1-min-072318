@@ -1,19 +1,55 @@
-def simple_curfew_checker(time)
-  # code goes here
-end
+# def simple_curfew_checker(time)
+#   if time >= 23
+#   puts"past curfew"
+# end
+# end
 
-def curfew_checker(time)
-  # code goes here
-end
+# simple_curfew_checker(12)
 
-def complex_curfew_checker(time)
-  # code goes here
-end
+# def curfew_checker(time)
+# if time >= 23
+#   puts"past curfew"
+# else 
+#   puts"you're all good"
+# end
+# end
 
-def deluxe_curfew_checker(time)
-  # code goes here
-end
+# curfew_checker(12)
+
+# def complex_curfew_checker(time)
+# if time == 23
+#   puts"better apparate home"
+# elsif time > 23
+# puts"past curfew"
+# else 
+# puts "you're all good"
+# end
+# end
+
+# complex_curfew_checker(11)
+
+# def deluxe_curfew_checker(time, hours=23-time)
+#   if time == 23
+#     puts "better apparate home"
+#     elsif time > 23
+#     puts"past curfew"
+#     else 
+#     puts"you have #{hours} hours to get home"
+#   end
+# end
+
+# deluxe_curfew_checker(7,)
 
 def platinum_curfew_checker(current_time, curfew_time)
-  # code goes here
+puts "what time is your curfew?"
+puts "what time is it right now?"
+if time = curfew_time
+  puts"better apparate home"
+elsif time > current_time
+puts"past curfew"
+else 
+  puts"you have #{curfew_time - current_time} hours to get home"
 end
+end
+  
+platinum_curfew_checker()
