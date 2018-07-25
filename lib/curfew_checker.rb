@@ -54,4 +54,4 @@ else
 end
 end
   
-platinum_curfew_checker (3 3)
+platinum_curfew_checker '3 3'
