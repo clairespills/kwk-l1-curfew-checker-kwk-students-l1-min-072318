@@ -46,7 +46,7 @@ if  current_time== curfew_time
 elsif current_time > curfew_time
 puts"past curfew"
 else 
-  puts"you have #{curfew_time - current_time} hours to get home"
+  puts"you have #{curfew_time -= current_time} hours to get home"
 end
 end
   puts "what time is your curfew?"
