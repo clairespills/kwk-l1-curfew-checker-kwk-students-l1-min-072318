@@ -40,8 +40,9 @@
 
 # deluxe_curfew_checker(7,)
 
-def platinum_curfew_checker(current_time, curfew_time)
+def platinum_curfew_checker(current_time = current_time, curfew_time = curfew_time)
 puts "what time is your curfew?"
+curfew_time = gets.chomp
 puts "what time is it right now?"
 if time = curfew_time
   puts"better apparate home"
