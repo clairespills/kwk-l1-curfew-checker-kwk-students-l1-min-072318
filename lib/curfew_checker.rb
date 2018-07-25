@@ -53,6 +53,6 @@ end
 a_time = gets.chomp
 puts "what time is it right now?"
 an_time= gets.chomp
-another = a_time - an_time
+another = a_time.to_i - an_time.to_i
 platinum_curfew_checker(a_time,an_time, another)
 
