@@ -41,6 +41,10 @@
 # deluxe_curfew_checker(7,)
 
 def platinum_curfew_checker(current_time, curfew_time)
+puts "what time is your curfew?"
+curfew_time = gets.chomp
+puts "what time is it right now?"
+current_time= gets.chomp
 if  current_time= curfew_time
   puts"better apparate home"
 elsif current_time > curfew_time
@@ -49,9 +53,5 @@ else
   puts"you have #{curfew_time - current_time} hours to get home"
 end
 end
-puts "what time is your curfew?"
-curfew_time = gets.chomp
-puts "what time is it right now?"
-current_time = gets.chomp
-platinum_curfew_checker (curfew_time, current_time)
-
+  
+platinum_curfew_checker (current_time,)
