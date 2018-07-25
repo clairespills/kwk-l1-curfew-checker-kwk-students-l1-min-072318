@@ -54,4 +54,4 @@ else
 end
 end
   
-platinum_curfew_checker ('gets.chomp','gets.chomp')
+platinum_curfew_checker (3,3)
